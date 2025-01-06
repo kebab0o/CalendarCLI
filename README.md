@@ -120,22 +120,22 @@ The C# implementation includes event notifications and a calendar display, power
    dotnet run
    ```
    OR:
-   Paste the CalendarCLI.exe into your CMD's PATH folder (Usually C:\Windows\System32)
-   Run the WatcherS.exe as administrator (Or run the script which will be added in the future to autorun it during Windows startup)
-   Open Command Prompt (cmd) as administrator and use the application accordingly
+   Paste the CalendarCLI.exe into your CMD's PATH folder (Usually C:\Windows\System32)</br>
+   Run the WatcherS.exe as administrator (Or run the script which will be added in the future to autorun it during Windows startup)</br>
+   Open Command Prompt (cmd) as administrator and use the application accordingly</br>
 
 #### Usage Examples
 
 - **Add Event**:
 
   ```bash
-  dotnet run add --title "Event Title" --date "2024-11-15" --description "Description"
+  dotnet run Add "Event Title" "2024-11-15" -d "Description"
   ```
 
 - **Show Calendar**:
 
   ```bash
-  dotnet run calendar --year 2024 --month 11
+  dotnet run calendar -y "2024" -m "11"
   ```
 
 #### Dependencies
