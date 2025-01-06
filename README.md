@@ -54,7 +54,7 @@ cli-calendar/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/finalnirepo/cli-calendar.git
+git clone https://github.com/kebab0o/CalendarCLI.git
 cd cli-calendar
 ```
 
