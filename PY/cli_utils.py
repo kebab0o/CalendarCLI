@@ -81,6 +81,7 @@ class Calendar:
                 args.notification = "{}:07:00".format(args.date)
             new_event = Event(args.title, args.date, args.description, args.time, args.notification)
             self.events.append(new_event)
+            print("Event added successfully")
             return
         print("Error: Failed to add event")
 
@@ -96,6 +97,7 @@ class Calendar:
                         return
                     self.finished.append(event_tbf)
                     self.events.remove(event)
+                    print("Event finished successfully")
                     return
             print("Error: Event not found")
 
@@ -118,6 +120,7 @@ class Calendar:
                     event.notification = args.notification
                 print("Event modified")
                 print(f"Modified event: {event.to_dict()}")
+                print("Event modified successfully")
                 return
         print("Error: Event not found")
 

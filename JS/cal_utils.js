@@ -95,6 +95,8 @@ class Calendar {
             this.events.push(newEvent);
 
             this.updateDB();
+            console.log("Event added successfully");
+
             return;
 
         } else {
@@ -128,6 +130,7 @@ class Calendar {
             }
 
             this.updateDB();
+            console.log(`Event ${toDelete ? 'deleted' : 'finished'} successfully`);
             return;
         }
         else {

@@ -1,25 +1,11 @@
 {
     "events": [
         {
-            "title": "Testing...again",
-            "date": "2025-01-06",
-            "description": "No description...",
-            "time": "09:00",
-            "notification": "2025-01-06:23:44"
-        },
-        {
-            "title": "Meeting",
-            "date": "2025-01-06",
-            "description": "Team meeting",
-            "time": "10:00",
-            "notification": "2025-01-06:23:43"
-        },
-        {
             "title": "New Meeting",
             "date": "2025-01-08",
             "description": "No description...",
             "time": "09:00",
-            "notification": "2025-01-08:07:00"
+            "notification": "2025-01-07:09:27"
         }
     ]
 }

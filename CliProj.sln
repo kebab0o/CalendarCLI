@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{F1222883-1E0D-4396-A3D1-87E680B4A878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalendarCLI", "C#\CalendarProgram\CalendarCLI.csproj", "{32C30F71-08D1-4969-B488-B8EFC35071E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WatcherS", "C#\WatcherService\WatcherS.csproj", "{21D2AEB2-9718-4B78-A65A-00148192DCE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C30F71-08D1-4969-B488-B8EFC35071E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C30F71-08D1-4969-B488-B8EFC35071E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C30F71-08D1-4969-B488-B8EFC35071E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C30F71-08D1-4969-B488-B8EFC35071E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D2AEB2-9718-4B78-A65A-00148192DCE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D2AEB2-9718-4B78-A65A-00148192DCE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D2AEB2-9718-4B78-A65A-00148192DCE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D2AEB2-9718-4B78-A65A-00148192DCE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32C30F71-08D1-4969-B488-B8EFC35071E4} = {F1222883-1E0D-4396-A3D1-87E680B4A878}
+		{21D2AEB2-9718-4B78-A65A-00148192DCE7} = {F1222883-1E0D-4396-A3D1-87E680B4A878}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {395239D7-6FC0-4233-996A-23D6EBE66241}
+	EndGlobalSection
+EndGlobal
