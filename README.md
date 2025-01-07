@@ -44,6 +44,7 @@ cli-calendar/
 │   ├── text_calendar.js
 │   ├── cli_calendar.js
 │   ├── cal_utils.js
+|   |── notification_watcher.js
 ├── README.md
 ```
 
