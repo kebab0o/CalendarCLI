@@ -10,6 +10,7 @@ function showNotification(event) {
     notifier.notify({
         title: event.title,
         message: `${event.description}\nTime: ${event.time}`,
+        icon: 'Terminal Icon',
         sound: true,
     });
 }
