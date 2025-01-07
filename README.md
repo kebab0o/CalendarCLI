@@ -58,6 +58,12 @@ git clone https://github.com/kebab0o/CalendarCLI.git
 cd cli-calendar
 ```
 
+### Download the C# Executables
+
+The C# `.exe` files are hosted externally due to GitHub's file size limits. Download them from the following Mega link:
+
+[Download C# Executables](https://mega.nz/folder/09F2mL4Z#Epk7KSjFtDMpYwTer6nz3g)
+
 ---
 
 ## Language-Specific Details
@@ -114,15 +120,15 @@ The C# implementation includes event notifications and a calendar display, power
    dotnet add package Microsoft.Toolkit.Uwp.Notifications
    ```
 
-3. Run the Calender application:
+3. Run the Calendar application:
 
    ```bash
    dotnet run
    ```
    OR:
-   Paste the CalendarCLI.exe into your CMD's PATH folder (Usually C:\Windows\System32)</br>
-   Run the WatcherS.exe as administrator (Or run the script which will be added in the future to autorun it during Windows startup)</br>
-   Open Command Prompt (cmd) as administrator and use the application accordingly</br>
+   Paste the `CalendarCLI.exe` into your CMD's PATH folder (usually `C:\Windows\System32`).  
+   Run the `WatcherS.exe` as administrator (or use the script to autorun it during Windows startup).  
+   Open Command Prompt (cmd) as administrator and use the application accordingly.  
 
 #### Usage Examples
 
@@ -211,4 +217,3 @@ This project is licensed under the MIT License.
 ---
 
 We wish you a smooth and joyful experience using our CMD Calendar!
-
