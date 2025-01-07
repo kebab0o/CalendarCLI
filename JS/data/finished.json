@@ -1,0 +1,53 @@
+{
+    "finished": [
+        {
+            "title": "Event",
+            "date": "2024-12-29",
+            "description": "New desc",
+            "time": "09:00",
+            "notification": "2024-12-25:07:00"
+        },
+        {
+            "title": "Read",
+            "date": "2024-12-29",
+            "description": "No description...",
+            "time": "09:00",
+            "notification": "2024-12-29:07:00"
+        },
+        {
+            "title": "Winn",
+            "date": "2024-12-29",
+            "description": "No description...",
+            "time": "09:00",
+            "notification": "2024-09-29:07:00"
+        },
+        {
+            "title": "Testing...",
+            "date": "2025-01-03",
+            "description": "No description...",
+            "time": "09:00",
+            "notification": "2025-01-03:07:00"
+        },
+        {
+            "title": "Testing...again",
+            "date": "2025-01-03",
+            "description": "No description...",
+            "time": "09:00",
+            "notification": "2025-01-03:07:00"
+        },
+        {
+            "title": "Meeting",
+            "date": "2025-01-10",
+            "description": "Team meeting",
+            "time": "10:00",
+            "notification": "2025-01-10:09:00"
+        },
+        {
+            "title": "Testing...",
+            "date": "2025-01-05",
+            "description": "No description...",
+            "time": "09:00",
+            "notification": "2025-01-03:07:00"
+        }
+    ]
+}
