@@ -266,50 +266,24 @@ class Calendar {
     }
 
 
-    updateDB() {
+    updateDB(eventType = "events") {
 
-        if (this.eventsIsLoaded) {
+        const fileName = path.join(__dirname, 'data', `${eventType}.json`);
+        let data;
 
-            const eventsData = { events: this.events };
-            const eventsString = JSON.stringify(eventsData, null, 4);
-
-            try {
-
-                fs.writeFileSync('data/events.json', eventsString, 'utf8');
-                console.log('Events file updated!');
-
-            } catch (err) {
-
-                console.error("Error saving events to file.", err);
-
-            }
-
+        if (eventType === "events") {
+            data = { events: this.events };
+        } else if (eventType === "finished") {
+            data = { finished: this.finished };
         } else {
-
-            console.error("Error: Events not loaded when updating.");
-
+            console.error("Error: Unknown event type.");
+            return;
         }
 
-        if (this.finishedIsLoaded) {
-
-            const finishedData = { finished: this.finished };
-            const finishedString = JSON.stringify(finishedData, null, 4);
-
-            try {
-
-                fs.writeFileSync('data/finished.json', finishedString, 'utf8');
-                console.log('Finished events file updated!');
-
-            } catch (err) {
-
-                console.error("Error saving finished events to file.", err);
-
-            }
-
-        } else {
-
-            console.error("Error: Finished events not loaded when updating.");
-
+        try {
+            fs.writeFileSync(fileName, JSON.stringify(data, null, 4), 'utf8');
+        } catch (err) {
+            console.error(`Error updating ${eventType} data:`, err);
         }
     }
 
